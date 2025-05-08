@@ -28,7 +28,7 @@ st.title("Classification Model Deployment")
 # Input fields (update according to your feature names)
 st.header("Enter Features")
 # Add more inputs as needed
-google_index	 = st.number_input("google_index	", min_value=0, max_value=4.0)
+google_index = st.number_input("google_index", min_value=0, max_value=4.0)
 nb_hyperlinks = st.number_input("nb_hyperlinks", min_value=0, max_value=4.0)
 page_rank = st.number_input("page_rank", min_value=0, max_value=4.0)
 web_traffic = st.number_input("web_traffic", min_value=0, max_value=4.0)
