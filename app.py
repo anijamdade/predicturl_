@@ -12,7 +12,7 @@ import pickle
 import numpy as np
 
 # Load the trained model
-with open('model (3).pkl', 'rb') as file:
+with open('model.pkl', 'rb') as file:
     model = pickle.load(file)
 
 with open("ss_features.pkl","rb") as file:
